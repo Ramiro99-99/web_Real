@@ -1,0 +1,12 @@
+h1{
+    color: rgb(234, 227, 227);
+    text-align: center;
+    background-color:rgb(86, 101, 115);
+    font-size: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+p{
+    font-size: 21px;
+}

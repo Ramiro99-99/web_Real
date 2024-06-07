@@ -1,0 +1,262 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:cadetblue;
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    
+
+    
+
+}
+
+
+
+.TITULO_UNO{
+
+    position: absolute;
+    top: 6px;     /*distania del inicio del header*/
+    left : 30px;      /*de izquierda a derecha la distancia del borde*/
+}
+
+nav{
+    position: absolute;
+    right: 50px; /* de der a izq la distancia del borde*/ 
+    top: 23px;
+}
+
+nav li{
+    list-style: none;
+    display:inline; /*listas en linea*/
+
+}
+
+nav a{
+
+        text-decoration: none;
+
+
+
+}
+
+h1{
+    color:yellowgreen;/*El color de las letras*/
+    background-color:cadetblue ; /*color del fondo del titulo*/
+    font-size: 35px; /*Tamaño del texto/titulo*/
+    font-family:cursive; /*forma de las letras*/ 
+    font-style: oblique; /*inclinacion de las letras*/
+    text-align: center; /*centrar textos*/
+
+
+}
+
+
+
+
+.links_videos{
+
+    text-decoration:none;  /*quitar subrayado de textos*/
+    padding-left:10px;
+    margin: 20px;
+    
+
+}
+
+
+.roles{
+
+    padding: 10px 5px 15px 20px;
+}
+
+
+
+.fundo{  
+    background-color: rgba(95, 158, 160, 0.774);
+   
+    font-size: 27px;
+
+    color: rgba(24, 7, 156, 0.585);
+
+    padding:10px;
+
+    padding-left: 8px;
+
+    max-width: 100%;
+
+
+    
+
+}
+
+
+.texto_uno{
+    font-size: 25px;
+    max-width: 90%;;
+    margin-top: 60px;
+    margin-left: 15px;
+    padding: 50px  30px 19px 5px;
+    margin-bottom: 20px;
+
+}
+
+
+.texto_dos{
+    font-size: 24px;
+    margin-left: 20px;
+    max-width: 90%;
+}
+
+
+.parrafo_texto{
+
+    max-width: 90%;
+
+    padding-bottom: 20px;
+}
+
+
+h3{ 
+    background-color: rgba(95, 158, 160, 0.774);
+   
+    color: rgba(24, 7, 156, 0.585);
+
+    font-size: 22px;
+
+}
+
+.titulos_totales{
+
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    margin-left: 8px;
+    
+
+}
+
+
+.idolos_club{
+    font-size: 20px;
+   
+    background-color: rgba(95, 158, 160, 0.774);
+
+    color: rgba(24, 7, 156, 0.585);
+
+    margin-left: 8px;
+
+    margin-top: 20px;
+
+    max-width: 90%;
+
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+.Contenedor_Limite{
+    margin:0 auto;
+    padding: 25px ;
+    max-width: 1000px;
+   
+    border: px solid;
+}
+
+.padre{
+        display: flex; /*alinea las card*/
+        flex-wrap: wrap; /*distribuye el espacio de las cards*/
+        justify-content: space-evenly;
+        max-width: 100%;
+        
+}
+
+.cards_2{
+    background-color: ;/*para poner marco*/
+    height:400px; /* distancia de la card a los otros codigos*/
+    text-align: center;
+    border: px solid;
+    border-radius: px; /* bordes de la card¨*/
+    padding:20px;/*separacion de bordes*/
+    max-width: 300px;; /*amplitud*/
+    width: 1000px; /*tamaño*/
+}
+
+
+.card_img{
+    width: 100%;
+}
+
+
+footer{
+    padding: 25px;
+   
+    background-color: ;
+}
+
+
+.titulo_redes{
+    font-size: 15px;
+   
+    padding: 20px 2px;
+    list-style: none;
+    
+
+} 
+
+.links_redes{
+    color:rgb (45, 39, 39);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:870px) {
+    header{
+        flex-direction:column;
+        align-items:start;
+        display: flex;
+
+    }     
+
+    nav li{
+        display:block;
+    }   
+}
+
+
+/*fixed fijado*/
+
+
+
+
+nav li :hover{
+
+    color: crimson;/*arriba de los links colores*/
+    font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
