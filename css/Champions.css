@@ -1,3 +1,19 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+nav li{
+    list-style: none;
+    display:inline; /*listas en linea*/
+    text-decoration: none;
+}
+
 h1{
     color: rgb(234, 227, 227);
     text-align: center;
@@ -6,6 +22,18 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
 }
+
+.container-fluid{
+    position: fixed;
+    background-color:rgb(220, 137, 137);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index:9999 ;
+     }
+
 
 p{
     font-size: 21px;
