@@ -32,9 +32,11 @@ h1{
     align-items: center;
     top: 0;
     z-index:9999 ;
+    
      }
 
 
 p{
     font-size: 21px;
+    padding-top: 50px;
 }

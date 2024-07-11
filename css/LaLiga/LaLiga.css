@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    position: fixed;
+    background-color:rgb(220, 137, 137);
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index:9999 ;
+
+    }
+
+
+ h1{
+    padding-top: 50px;
+    text-align: center;
+ }
+
+ .introduccion{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;   
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size:20px;
+    
+ }
+    
+
+  
+
+ 
+
+   
